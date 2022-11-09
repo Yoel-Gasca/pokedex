@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex | Yoel_GH97</title>
+    <link rel="stylesheet" href="./CSS/pokedex.css">
+    
+</head>
+<body>
+    <a href="Index.html">
+        <img class="logo" src="./Assets/img/logo.png" alt="">
+    </a>
+    <div class="pokedex">
+        <div class="pokePhoto">
+            <img src="./Assets/img/Poké_Ball_icon.svg.png" alt="Pokemon" id="pokeImg" class="image1">
+        </div>
+        <div class="pokeInfo">
+            <input type="text" placeholder="name or number of Pokemon" id="pokeName" name="pokeName">
+            <button onclick="fetchPokemon()">Search</button>
+            <h2>Abilities:</h2>
+            <div class="pokeScreen" id="abilities"></div>
+        </div>
+        
+    </div>
+</body>
+<footer>
+    <script src="./JS/pokedex.js"></script>
+</footer>
+</html>
